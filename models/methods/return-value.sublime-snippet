@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+return {'value': {
+    '${1:field_name}': ${2:field_value},
+    ${0}
+    }
+}
+]]></content>
+    <tabTrigger>return/value</tabTrigger>
+    <scope>source.python</scope>
+    <description>change value</description>
+</snippet>
