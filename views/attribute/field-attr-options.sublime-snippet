@@ -2,7 +2,7 @@
     <content><![CDATA[
 options="{'no_create': True, 'no_open': True, 'no_create_edit': True}"
 ]]></content>
-    <tabTrigger>options</tabTrigger>
+    <tabTrigger>options/no_quick_create</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr options no_create</description>
+    <description>field attr options no_create/no_open/no_create_edit</description>
 </snippet>

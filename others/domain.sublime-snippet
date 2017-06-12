@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:[}${2:'${3:&}',}('${4:field_name (in self)}','${5:=}', ${6:"Please use: 'value' or self.dot.notation"}),${1/^\[/\]/g}
-]]></content>
-    <tabTrigger>odoo/domain</tabTrigger>
-    <scope>source.python</scope>
-    <description>Common domain definition</description>
-</snippet>

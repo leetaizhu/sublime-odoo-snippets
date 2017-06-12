@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-attrs="{'readonly': [('state','not in',('draft'))]}"
+attrs="{ ${0} }"
 ]]></content>
     <tabTrigger>attrs</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>

@@ -15,7 +15,7 @@ def copy(self, default=None):
 
     return result
 ]]></content>
-    <tabTrigger>def/copy</tabTrigger>
+    <tabTrigger>method/copy</tabTrigger>
     <scope>source.python</scope>
     <description>copy method signature</description>
 </snippet>

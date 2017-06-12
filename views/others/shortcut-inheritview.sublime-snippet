@@ -29,5 +29,5 @@
 ]]></content>
     <tabTrigger>odoo/view/inherit</tabTrigger>
     <scope>text.xml</scope>
-    <description>Views: tree, form</description>
+    <description>Inherited Views: tree, form</description>
 </snippet>

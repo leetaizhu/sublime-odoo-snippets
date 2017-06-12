@@ -17,7 +17,7 @@ def init(self):
         )
     )${0}
 ]]></content>
-    <tabTrigger>def/init</tabTrigger>
+    <tabTrigger>method/init</tabTrigger>
     <scope>source.python</scope>
     <description>init method signature</description>
 </snippet>

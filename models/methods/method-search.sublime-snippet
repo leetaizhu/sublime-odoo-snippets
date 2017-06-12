@@ -3,7 +3,7 @@
 def _search_${1: field}(self, operator, value):
     return [('${2:related}', operator, value)]${0}
 ]]></content>
-    <tabTrigger>def/_search</tabTrigger>
+    <tabTrigger>method/_search</tabTrigger>
     <scope>source.python</scope>
     <description>_search method signature</description>
 </snippet>

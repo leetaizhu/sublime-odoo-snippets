@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:attachment}_id = fields.Many2one('ir.attachment', domain="[('res_model', '=', '${2:model}'), ('res_id', '=', id)]", string=u'${3:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}')
+]]></content>
+    <tabTrigger>fields.Attachment</tabTrigger>
+    <scope>source.python</scope>
+    <descriptio>Field type: Attachment</description>
+</snippet>

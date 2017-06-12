@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-return {'error': '${2: Message Body}'
-}${0}
-]]></content>
-    <tabTrigger>return/error</tabTrigger>
-    <scope>source.python</scope>
-    <description>pop error</description>
-</snippet>

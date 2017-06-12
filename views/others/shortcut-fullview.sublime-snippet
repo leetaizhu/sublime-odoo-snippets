@@ -44,7 +44,7 @@
                 <div class="oe_title">
                     <label for="${3/(.)/\1/g}" class="oe_edit_only" />
                     <h1>
-                        <field name="${3/(.)/\1/g}" class="oe_field_${3/(.)/\1/g}"
+                        <field name="${3/(.)/\1/g}" class="oe_inline"
                             placeholder="${3/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}" />
                     </h1>
                 </div>
@@ -75,7 +75,7 @@
 <!-- Main window action for "${2/(.)/\1/g}" -->
 <record id="action_${2/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" model="ir.actions.act_window">
     <field name="type">ir.actions.act_window</field>
-    <field name="name">action.${2/\.+/\./g}.act_window</field>
+    <field name="name">${1/(.)/\1/g}</field>
     <field name="res_model">${2/\.+/\./g}</field>
     <field name="view_mode">tree,form</field>
     <field name="view_type">form</field>
@@ -96,7 +96,7 @@
 <record id="menu_${2/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.ui.menu" >
     <field name="name">${1/(.)/\1/g}</field>
     <field name="sequence" eval="${8/(.)/\1/g}" />
-    <field name="action" ref="action_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" />
+    <field name="action" ref="action_${2/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" />
     <field name="parent_id" ref="${6/(.)/\1/g}" />
 </record>
 ]]></content>

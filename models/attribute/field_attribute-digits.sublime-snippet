@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-digits=(${1:16}, ${2:2})
+digits=(${1:16}, ${2:2}),
 ]]></content>
     <tabTrigger>digits</tabTrigger>
     <scope>source.python meta.function-call.python meta.function-call.arguments.python</scope>
